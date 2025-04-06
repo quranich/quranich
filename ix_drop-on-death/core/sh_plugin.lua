@@ -1,0 +1,2 @@
+-- <|> Hello, fucker | Taxin2012 and PURP was here | Mysterious Zone Project | mzrp.ru <|>
+local a=ix.plugin.list["drop-on-death"]a.name="Выпадение вещей"a.author="Taxin2012"a.description="Выпадение вещей при смерти"ix.config.Add("BagRemoveTime",60*5,"For thirst decrase",nil,{data={min=60,max=60*60*2},category="Death Drop"})if SERVER then ix.util.Include("sv_plugin.lua")end

@@ -1,0 +1,2 @@
+-- <|> Hello, fucker | Taxin2012 and PURP was here | Mysterious Zone Project | mzrp.ru <|>
+local a=ix.plugin.list["cross-server-library"]kouka.utils.Stream.Hook("CSL_SendList",function(b)ix.csl._list=b or{}end)kouka.utils.Stream.Hook("CSL_CharacterJoin",function(b)local c=ix.csl:GetList()local d,e,f=b.characterID,b.oldCharacterID,b.mapName c[d]=f if e then c[e]=false end end)kouka.utils.Stream.Hook("CSL_CharacterLeave",function(b)ix.csl._list[b.characterID]=false end)

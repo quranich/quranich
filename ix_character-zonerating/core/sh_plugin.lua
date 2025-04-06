@@ -1,0 +1,2 @@
+-- <|> Hello, fucker | Taxin2012 and PURP was here | Mysterious Zone Project | mzrp.ru <|>
+local a=ix.plugin.list["character-zonerating"]a.name="Zone Rating"a.author="PURP"a.description=""ix.zoneRating=ix.zoneRating or{}ix.util.Include("sh_character.lua")ix.util.Include("sv_rating.lua")do local b=ix.meta.character function b:GetCounter(c)return self:GetData(c,0)end end

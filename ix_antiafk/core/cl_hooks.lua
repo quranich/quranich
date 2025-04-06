@@ -1,0 +1,2 @@
+-- <|> Hello, fucker | Taxin2012 and PURP was here | Mysterious Zone Project | mzrp.ru <|>
+local a=ix.plugin.list["antiafk"]hook.Add("PopulateCharacterInfo",a.uniqueID.."PopulateCharacterInfo",function(b,c,d)if(b:Alive()and b:GetNetVar("IsAFK"))then local e=d:AddRow("afk")e:SetText(L("charAFK"))e:SetBackgroundColor(Color(30,30,30,255))e:Dock(BOTTOM)e:SizeToContents()end end)

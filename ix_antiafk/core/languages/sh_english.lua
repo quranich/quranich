@@ -1,0 +1,2 @@
+-- <|> Hello, fucker | Taxin2012 and PURP was here | Mysterious Zone Project | mzrp.ru <|>
+LANGUAGE={antiafk="Anti-AFK",kickedAFK="%s has been auto-kicked by the server (AFK)",kickedAdminAFK="%s has auto-kicked '%s' (AFK).",charAFK="Away from keyboard"}
