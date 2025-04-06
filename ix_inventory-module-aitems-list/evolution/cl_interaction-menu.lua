@@ -1,0 +1,2 @@
+-- <|> Hello, fucker | Taxin2012 and PURP was here | Mysterious Zone Project | mzrp.ru <|>
+local a=ix.plugin.list["inventory-module-aitems-list"]local function b(c,d,e,f)net.Start("ixInventoryAction")net.WriteString(c)net.WriteUInt(d,32)net.WriteUInt(e,32)net.WriteTable(f or{})net.SendToServer()end

@@ -1,0 +1,2 @@
+-- <|> Hello, fucker | Taxin2012 and PURP was here | Mysterious Zone Project | mzrp.ru <|>
+local a=ix.plugin.list["kouka_newwarn"]a.name="Kouka new warning"a.desc="Выдача теста при варнах игроков"a.author="Dobytchick"ix.util.Include("sv_plugin.lua")

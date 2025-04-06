@@ -1,0 +1,2 @@
+-- <|> Hello, fucker | Taxin2012 and PURP was here | Mysterious Zone Project | mzrp.ru <|>
+local ix=ix local Material=Material local a=concommand.Add local b=CLIENT and vgui.Create local ScrW=ScrW local ScrH=ScrH local c=CLIENT and surface.SetMaterial local d=CLIENT and surface.SetDrawColor local surface=surface local e=ix.plugin.list["main-menu"]e.name="Main menu"e.author="PURP"e.description=""ix.util.Include("cl_main-menu.lua")

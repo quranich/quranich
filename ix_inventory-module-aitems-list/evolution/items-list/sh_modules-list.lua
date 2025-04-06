@@ -1,0 +1,2 @@
+-- <|> Hello, fucker | Taxin2012 and PURP was here | Mysterious Zone Project | mzrp.ru <|>
+local a=ix.plugin.list["inventory-module-aitems-list"]local b=ix.itemsListMaterials ix.itemsList.data.modules={["_multiplySlots"]=true,["_slot"]=true,["_Loadout"]=true,["_Tooltip"]=function(c,d)a:TooltipProtectStats(c,d,panelBase)end,}if IX_PLUGINS_LOADED and ix.itemsList and ix.itemsList.CoreItemsRegistration then ix.itemsList.CoreItemsRegistration()end

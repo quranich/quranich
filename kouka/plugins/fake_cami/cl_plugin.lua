@@ -1,0 +1,2 @@
+-- <|> Hello, fucker | Taxin2012 and PURP was here | Mysterious Zone Project | mzrp.ru <|>
+local a=KoukaPlugin CAMI.allPrivs={}function CAMI.RegisterPrivilege(b)CAMI.allPrivs[b.Name]=b end function CAMI.GetPrivilege(b)return CAMI.allPrivs[b]~=nil end function CAMI.PlayerHasAccess(b,c)return kouka.HasFlag(c)end function CAMI.GetPlayersWithAccess(b,c)return c({})end

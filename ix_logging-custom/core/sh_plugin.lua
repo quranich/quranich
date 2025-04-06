@@ -1,0 +1,2 @@
+-- <|> Hello, fucker | Taxin2012 and PURP was here | Mysterious Zone Project | mzrp.ru <|>
+local a=ix.plugin.list["logging-custom"]a.name="Logging"a.author="Black Tea, Taxin2012"a.description="You can modfiy the logging text/lists on this plugin."if SERVER then ix.util.Include("sv_plugin.lua")end

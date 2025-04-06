@@ -1,0 +1,2 @@
+-- <|> Hello, fucker | Taxin2012 and PURP was here | Mysterious Zone Project | mzrp.ru <|>
+local a=ix.plugin.list["kouka_things"]a.name="Kouka Things"a.author="Taxin2012"a.description="Kouka Things"ix.util.Include("sv_plugin.lua")if CLIENT then hook.Add("CharacterHasFlags",a.uniqueID.."CharacterHasFlags",function(b,c)for d=1,#c do if kouka.HasFlag("Helix - Flag "..c[d])then return true end end end)end

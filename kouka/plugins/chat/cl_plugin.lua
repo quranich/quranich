@@ -1,0 +1,2 @@
+-- <|> Hello, fucker | Taxin2012 and PURP was here | Mysterious Zone Project | mzrp.ru <|>
+local a=KoukaPlugin net.Receive("Kouka.Chat",function()local b,c,d,e=net.ReadString(),net.ReadString(),net.ReadString(),net.ReadString()a:Print(string.format("[ %s | %s | %s ]: %s",b,d,c,e))kouka.Notify(kouka.colors.orange,"(",b,") ",kouka.colors.green,c,kouka.colors.white,": ",e)end)
